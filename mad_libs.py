@@ -20,11 +20,5 @@ story = (
 print("\nHere is your story:")
 print(story)
 
-# Replay loop
-while True:
-    play_mad_libs()
-    replay = input("\nDo you want to play again? (yes/no): ").strip().lower()
-    if replay != "yes":
-        print("Thanks for playing! Goodbye!")
-        break
+
    
